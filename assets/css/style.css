@@ -1,22 +1,21 @@
-/*Index 1: Html Elements and page styling*/
-/*Index 2: Navbar Menu styling*/
-/*Index 3 styling of HTML Main-section elements that include
-Aboutme, Portfolio, Contact and Sidebar */
-/*Index 4 styling of HTML Footer styles */
-/*Index 5 card caption and title styles */
+/*Index 1: whole page HTML*/
+/*Index 2: Navbar Menu styling // why can't i get the hamburger menu to work?? */
+/*Index 3 main content & sidebar styling */
+/*Index 4 html footer styling */
+/*Index 5 cards and titles */
 
 
 
-/*Index 1: Html Elements and page styling*/
+/*Index 1: whole page HTML*/
 html {
     overflow: scroll;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    width: 0px;
+    background: transparent;
 }
-/* optional: show position indicator in red */
+
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
@@ -55,9 +54,19 @@ h2, h3 {
   font-size: 22px;
 }
 
-/*Index 2: Navbar Menu styling*/
+/*Index 2: Navbar Menu styling // why can't i get the hamburger menu to work?? */
 .padding {
   padding: 20px;
+}
+
+.plbgcolor1 {
+background: lightskyblue
+
+}
+
+.plbgcolor2{
+background: white
+
 }
 
 .pl-navbar-brand {
@@ -79,7 +88,7 @@ nav a:hover {
 
 .navbar-bottom-margin {
   margin-bottom: 30px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 .navbar {
@@ -91,8 +100,7 @@ nav a:hover {
 
 
 }
-/*Index 3 styling of HTML Main-section elements that include
-Aboutme, Let's Connect */
+/*Index 3 main content & sidebar styling */
 .peterpic1 {
   max-width: 400px;
   min-width: 260px;
@@ -134,7 +142,7 @@ textarea {
   padding-right: 10px;
 }
 
-/*Index 4 styling of HTML Footer styles */
+/*Index 4 html footer styling */
 .foot-container {
   background: rgb(0, 0, 0);
   color: #fff;
@@ -151,7 +159,7 @@ textarea {
 }
 
 
-/*Index 5 card caption and title styles */
+/*Index 5 cards and titles */
 .plcard-caption   {
 position: relative;
 }
